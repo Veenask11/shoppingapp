@@ -1,0 +1,46 @@
+.hover_link:hover {
+    color:black;
+  }
+
+  .hover_link_active{
+    text-decoration: underline;
+  }
+
+  
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+
+.imgCard:hover {
+  box-shadow: 0 0 50px #e26a2c;
+    transition: box-shadow .5s;
+
+}
+
+.add_to_cart:hover{
+  text-decoration: none !important;
+  background-color:#e26a2c !important;
+}
+
+.common_button{
+  background-color: #e26a2c;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 11px 69px;
+    text-transform: uppercase;
+}
